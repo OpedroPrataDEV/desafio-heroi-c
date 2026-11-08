@@ -28,5 +28,28 @@ Projeto desenvolvido como parte do desafio prático de lógica de programação 
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/desafio-heroi-c.git](https://github.com/SEU_USUARIO/desafio-heroi-c.git)
+   git clone https://github.com/OpedroPrataDEV/desafio-heroi-c.git
    cd desafio-heroi-c
+   ```
+
+2. **Compile o código:**
+   ```bash
+   gcc main.c -o heroi
+   ```
+
+3. **Execute o programa:**
+   ```bash
+   ./heroi
+   ```
+   No Windows, execute `heroi.exe`.
+
+---
+
+## ✅ Saída esperada
+
+```text
+o mago atacou usando magia
+o guerreiro atacou usando espada
+o monge atacou usando artes marciais
+o ninja atacou usando shuriken
+```
